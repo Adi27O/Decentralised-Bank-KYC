@@ -1,0 +1,160 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "BankInterface",
+  "sourceName": "contracts/Kyc.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_custName",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_custData",
+          "type": "string"
+        }
+      ],
+      "name": "addCustomer",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_custName",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_custData",
+          "type": "string"
+        }
+      ],
+      "name": "addNewCustomerRequest",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "custName",
+          "type": "string"
+        }
+      ],
+      "name": "downVoteCustomer",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "custName",
+          "type": "string"
+        }
+      ],
+      "name": "getCustomerKycStatus",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "custName",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "custData",
+          "type": "string"
+        }
+      ],
+      "name": "modifyCustomer",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_custName",
+          "type": "string"
+        }
+      ],
+      "name": "removeCustomer",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "suspiciousBankAddress",
+          "type": "address"
+        }
+      ],
+      "name": "reportSuspectedBank",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "custName",
+          "type": "string"
+        }
+      ],
+      "name": "upVoteCustomer",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "custName",
+          "type": "string"
+        }
+      ],
+      "name": "viewCustomerData",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        },
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

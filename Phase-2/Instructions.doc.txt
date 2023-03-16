@@ -1,0 +1,15 @@
+1) Open https://remix.ethereum.org/
+2) Right click on contracts and create new file KYC.sol
+3) Copy paste the code from code file in zip file
+4) Click on Solidity compiler from left side
+5) Click compile and run
+6) Now click on Deploy & run transactions
+7) On the contracts dropdown select KYC - contracts/KYC.sol
+8) Once the code is deployed, it’s now time to add new banks as admin
+9) You can use the eth address provided in console or portal
+10) Once banks are added, you can try to remove a bank or edit vote status of bank
+11) Now from the bank address try to add customers
+12) Once customer is added, try to request KYC for customer
+13) Now from other bank accounts try to upvote or downvote the customer
+14) Banks also have an option to report suspicious banks
+15) Customer status can be viewed through view functions defined
